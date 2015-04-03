@@ -964,7 +964,7 @@ class Cdf(object):
                 logging.warning("Cdf: can't pass ps without also passing xs.")
             return
         else:
-            # if the caller provides xs and ps, just store them          
+            # if the caller provides xs and ps, just store them
             if ps is not None:
                 if isinstance(ps, str):
                     logging.warning("Cdf: ps can't be a string")
